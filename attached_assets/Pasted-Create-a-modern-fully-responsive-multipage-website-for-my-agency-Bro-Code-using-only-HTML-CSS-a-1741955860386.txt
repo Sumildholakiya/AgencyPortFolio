@@ -1,0 +1,55 @@
+Create a modern, fully responsive multipage website for my agency, Bro Code, using only HTML, CSS, and JavaScript. The design should be clean, professional, and easy to navigate.
+
+🎨 Best Color Combination (Techy & Clean)
+🔹 Primary Color: Techy Blue (#007bff) – Used for buttons, highlights, and accents.
+🔹 Secondary Color: Dark Navy Blue (#0a192f) – Used for backgrounds.
+🔹 Text Colors: White (#ffffff) for light mode, Light Gray (#cccccc) for dark mode.
+🔹 Contrast Color: Electric Cyan (#00d9ff) – Used for hover effects & important elements.
+
+📌 Key Features & Requirements:
+✅ Multipage Structure (Home, About, Services, Portfolio, Contact)
+✅ Navigation Bar (Sticky & smooth transitions)
+✅ Dark & Light Mode Toggle (User-friendly design)
+✅ Animations & Hover Effects (Smooth transitions, parallax scrolling, interactive elements)
+✅ Neat & Clean UI (Minimalistic, professional, and fast-loading)
+
+🛠 Services Page Details (With Separate Pages for Each Service)
+1️⃣ Website Development (React, Next.js, Business & Portfolio Websites)
+2️⃣ Shopify Development (Store Setup, Customization, Theme & App Integration)
+3️⃣ WordPress Development (WooCommerce, Speed & SEO Optimization)
+4️⃣ App Development (Android, iOS, Business & E-commerce Apps, API Integration)
+5️⃣ Game Development (2D & 3D Game Development, Unity, Unreal Engine, Mobile & PC Games)
+6️⃣ Digital Marketing & Branding (Social Media, SEO, Ads, Logo & Branding Design)
+7️⃣ Social Media Management (Content Planning, Growth, Engagement, Analytics)
+8️⃣ Video Editing & Reels Creation (Reels, YouTube, Corporate & Promo Videos)
+9️⃣ AI Content Creation & Automation (AI Blogs, Social Media Content, AI Chatbots)
+🔟 Graphic & UI/UX Design (Website & App UI, Posters, Motion Graphics)
+
+📷 Portfolio Page
+✅ Grid Gallery with Thumbnail Images of Past Work
+✅ Hover Effects for Smooth User Experience
+
+📞 Contact Page
+✅ Contact Form (Name, Email, Message)
+✅ WhatsApp Live Chat Integration
+
+📂 Folder Structure (For Organized Code in Replit)
+mathematica
+Copy
+Edit
+📁 brocode-website/
+├── 📄 index.html  (Home Page)
+├── 📄 about.html  (About Page)
+├── 📄 services.html  (Services Page)
+├── 📄 portfolio.html  (Portfolio Page)
+├── 📄 contact.html  (Contact Page)
+├── 📁 assets/
+│   ├── 📁 css/
+│   │   ├── 📄 style.css  (Main Stylesheet)
+│   │   ├── 📄 animations.css  (For Hover & Transition Effects)
+│   ├── 📁 js/
+│   │   ├── 📄 script.js  (Main JavaScript File)
+│   │   ├── 📄 darkmode.js  (For Light/Dark Mode Toggle)
+│   ├── 📁 images/  (For storing site images)
+🔹 Ensure the website is fully responsive and optimized for mobile & desktop.
+🔹 Code should be well-commented for easy modifications.
