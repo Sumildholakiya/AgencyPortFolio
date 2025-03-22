@@ -1,0 +1,9 @@
+---------------Call Descision--------------------
+
+- contact page ma icon ready che aema link add kar va ni che
+- footer ma icon add kar va che 
+- contact.html ne mail.js sathe link krvanu che 
+- fotter na mail ne pan mail.js sathe link krvanu che 
+- color theme change krvani che
+
+- final bug and error mate ek var proffesionally explore krvani chee

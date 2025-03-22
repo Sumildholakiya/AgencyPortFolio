@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bro Code - Digital Agency</title>
+    <title>BroCode Vision | Endless Solutions</title>
+
+    <!-- favicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- fevicol icon end -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="/" class="logo">Bro Code</a>
+            <a href="/" class="logo">
+                <h2>BroCode Vision</h2>
+                <p>Endless Possibilities</p>
+            </a>
             <div class="nav-toggle">
                 <span></span>
                 <span></span>
@@ -24,7 +42,7 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li>
-                    <button id="theme-toggle" class="theme-toggle">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                         <i class="sun-icon">☀️</i>
                         <i class="moon-icon">🌙</i>
                     </button>
@@ -36,53 +54,132 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1 class="fade-in">Welcome to <span class="text-primary">Bro Code</span></h1>
-            <p class="fade-in">We transform innovative ideas into powerful digital solutions that drive success.</p>
-            <div class="button-group fade-in">
-                <a href="services.html" class="btn btn-primary">Our Services</a>
-                <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+            <div class="heroContainer">
+                <div class="textContainer">
+                    <div class="first-text">
+                        <h1 class="fade-in text-primary-0" id="text1">
+                            <!-- Welcome to <span class="text-primary">BroCode</span> -->
+                        </h1>
+                        <h2 id="text2" class="text-primary"></h2>
+                        <!-- <p class="fade-in">At BroCode, we turn your vision into reality with innovative digital solutions that empower your business. </p> -->
+                    </div>
+                    <p class="fade-in size" id="small">We're a team of passionate developers, designers, and thinkers
+                        who are
+                        dedicated to delivering high-quality digital solutions to our clients. Our expertise spans
+                        across a wide range of technologies and platforms, ensuring that our clients receive the best
+                        possible solutions that meet their needs.</p>
+                    </p>
+                    <div class="button-group fade-in">
+                        <a href="services.html" class="btn btn-primary">Our Services</a>
+                        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="imgContainer">
+                    <img src="assets/images/hero.png" alt="hyy">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Services -->
+    <!-- Featured Services Section -->
     <section class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <p>Comprehensive digital solutions for your business needs</p>
+            <p class="title-text">Empowering businesses with cutting-edge digital solutions. From high-performance
+                websites and scalable apps to engaging game development and seamless Shopify stores, we craft solutions
+                that drive success. Whether it's WordPress expertise or UI/UX perfection, we bring your vision to life
+                with innovation and precision</p>
             <div class="services-grid">
-                <!-- Web Development -->
-                <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1556745753-b2904692b3cd" alt="Web Development">
+
+                <!-- App Development 📱 -->
+                <div class="service-card fade-in">
+                    <img src="assets/images/App development.jpg" alt="Mobile Apps">
                     <div class="card-content">
-                        <h3>Web Development</h3>
-                        <p>Custom websites built with cutting-edge technologies</p>
+                        <h3>App Development 📱</h3>
+                        <p>We build high-performance mobile apps for Android & iOS using React Native and Flutter.</p>
+                        <a href="services.html#mobile" class="btn btn-outline max-btn">Learn More</a>
                     </div>
                 </div>
-                <!-- Mobile Apps -->
-                <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Mobile Apps">
+
+                <!-- WordPress Development 🔧 -->
+                <div class="service-card fade-in">
+                    <img src="assets/images/WordPress Development.jpg" alt="Web Development">
                     <div class="card-content">
-                        <h3>Mobile Apps</h3>
-                        <p>Native and cross-platform mobile applications</p>
+                        <h3>WordPress Development 🔧</h3>
+                        <p>We build fast, responsive, and SEO-optimized WordPress websites, including WooCommerce
+                            solutions.</p>
+                        <a href="services.html#web" class="btn btn-outline max-btn">Learn More</a>
                     </div>
                 </div>
-                <!-- Digital Marketing -->
-                <div class="service-card">
-                    <img src="https://images.unsplash.com/photo-1519624133901-3420156d01b2" alt="Digital Marketing">
+
+                <!-- Game Development 🎮 -->
+                <div class="service-card fade-in">
+                    <img src="assets/images/Game development.jpg" alt="Digital Marketing">
                     <div class="card-content">
-                        <h3>Digital Marketing</h3>
-                        <p>Strategic digital marketing solutions</p>
+                        <h3>Game Development 🎮</h3>
+                        <p>We create immersive gaming experiences with high-quality 2D/3D graphics, prototyping, and
+                            testing for mobile and PC.</p>
+                        <a href="services.html#marketing" class="btn max-btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Preview Section -->
+    <section class="portfolio-preview">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <p class="title-text">Discover our finest work! We take pride in delivering top-notch websites, apps, and
+                digital solutions tailored to perfection. Explore our portfolio of innovative and high-performance
+                projects that showcase our expertise in web and app development, game design, e-commerce, and more</p>
+            <div class="portfolio-grid">
+                <div class="portfolio-item fade-in">
+                    <img src="assets/images/port-uiux1.png" alt="E-commerce Project">
+                    <div class="portfolio-overlay">
+                        <h3>Bakery Website UI </h3>
+                        <p>A clean and modern bakery website UI with an intuitive layout</p>
+                        <a href="portfolio.html" class="btn btn-primary">View More</a>
+                    </div>
+                </div>
+                <div class="portfolio-item fade-in">
+                    <img src="assets/images/port-webdev3.png" alt="Mobile App">
+                    <div class="portfolio-overlay">
+                        <h3>GrowthMink</h3>
+                        <p>Empowering Businesses with Smart Solutions</p>
+                        <a href="portfolio.html" class="btn btn-primary">View More</a>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <a href="services.html" class="btn btn-outline">View All Services</a>
+                <a href="portfolio.html" class="btn btn-outline">View All Projects</a>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- About Preview Section -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text fade-in">
+                    <h2>Who We Are</h2>
+                    <p>BroCode is a cutting-edge digital agency specializing in web, app, and game development. Founded
+                        in 2025, we transform ideas into <b> high-performance digital solutions </b>with sleek UI/UX,
+                        seamless
+                        functionality, and future-ready technology</p>
+
+                    <p>From dynamic websites to engaging mobile apps, we deliver innovation, speed, and
+                        perfection-helping businesses thrive in the digital era.</p>
+                    <a href="about.html" class="btn btn-primary">Learn More About Us</a>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="assets/images/who we are.jpg" alt="Team Meeting">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
     <section class="cta">
         <div class="container">
             <h2>Ready to Start Your Project?</h2>
@@ -94,46 +191,78 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
+            <div class="footer-top">
+                <div class="footer-section brand">
                     <h3>Bro Code</h3>
                     <p>Transforming ideas into digital reality with cutting-edge solutions.</p>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer-section links">
                     <h3>Quick Links</h3>
                     <ul>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>Services</h3>
-                    <ul>
-                        <li>Website Development</li>
-                        <li>App Development</li>
-                        <li>Digital Marketing</li>
-                        <li>UI/UX Design</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Connect</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="icon-facebook">📱</i></a>
-                        <a href="#"><i class="icon-twitter">🐦</i></a>
-                        <a href="#"><i class="icon-instagram">📷</i></a>
-                        <a href="#"><i class="icon-linkedin">💼</i></a>
+
+                <div class="footer-section serv">
+                    <h3>Our Services</h3>
+                    <div class="services-container">
+                        <ul>
+                            <li><a href="services.html">Website Development</a></li>
+                            <li><a href="services.html">App Development</a></li>
+                            <li><a href="services.html">Shopify Development</a></li>
+                            <li><a href="services.html">Graphic Design & UI/UX Design</a></li>
+                            <li><a href="services.html">WordPress Development</a></li>
+                            <li><a href="services.html">see more...</a></li>
+                        </ul>
+                        <!-- <ul>
+                            <li>Digital Marketing & Branding</li>
+                            <li>Game Development</li>
+                            <li>Social Media Management</li>
+                            <li>Video Editing & Reels Creation</li>
+                            <li>Graphic Design & UI/UX Design</li>
+                        </ul> -->
                     </div>
                 </div>
+
+                <div class="footer-section cont">
+                    <h3>Contact Us</h3>
+                    <form name="portfolio-footer" netlify>
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <!-- <a href="#"><i class="icon-facebook">📱</i></a> -->
+                        <!-- <a href="#"><i class="icon-twitter">🐦</i></a> -->
+                        <!-- <a href="#"><i class="icon-instagram">📷</i></a> -->
+                        <!-- <a href="#"><i class="icon-linkedin">💼</i></a> -->
+                        <a target="_blank" href="mailto:brocodeagency7@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <!-- <i class="fa-brands fa-square-twitter"></i> -->
+                        <a target="_blank" href="https://www.instagram.com/brocodeagency?igsh=MTlsZmZmOGgxdm95aA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/bro-code-agency-b96139357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> Bro Code. All rights reserved.</p>
+                <p>&copy; <span id="current-year"></span> BroCode Vision. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+
+
     <script src="assets/js/script.js"></script>
     <script src="assets/js/darkmode.js"></script>
 </body>
+
 </html>

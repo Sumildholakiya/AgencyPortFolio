@@ -1,17 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Bro Code</title>
+    <title>Contact Us | Bro Code</title>
+    
+    <!-- favicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- fevicol icon end -->
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="/" class="logo">Bro Code</a>
+            <a href="/" class="logo">
+                <h2>BroCode Vision</h2>
+                <p>Endless Possibilities</p>
+            </a>
             <div class="nav-toggle">
                 <span></span>
                 <span></span>
@@ -34,10 +52,15 @@
     </nav>
 
     <!-- Contact Hero -->
-    <section class="hero">
+    <section class="hero about-hero">
         <div class="container">
-            <h1 class="fade-in">Get in Touch</h1>
-            <p class="fade-in">Let's discuss your next project</p>
+            <h1 class="fade-in">Let’s Connect & Build Something Great!</h1>
+            <p class="fade-in">Have a project in mind or need expert solutions? Reach out to us today, and let’s turn
+                your ideas into reality! We're here to help you succeed. </p>
+            <div class="button-group fade-in">
+                <a href="services.html" class="btn btn-primary">Our Services</a>
+                <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+            </div>
         </div>
     </section>
 
@@ -48,7 +71,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form fade-in">
                     <h2>Send us a Message</h2>
-                    <form id="contactForm">
+                    <form id="contactForm" name="portfolio-contact" netlify>
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required>
@@ -65,7 +88,7 @@
                             <label for="message">Message</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn max-btn btn-primary">Send Message</button>
                     </form>
                 </div>
 
@@ -73,31 +96,42 @@
                 <div class="contact-info fade-in">
                     <h2>Contact Information</h2>
                     <div class="info-item">
-                        <i class="icon-location">📍</i>
+                        <!-- <i class="icon-location">📍</i> -->
+                        <i class="fa-solid fa-map-location-dot"></i>
                         <div>
                             <h3>Address</h3>
-                            <p>123 Tech Street, Digital City<br>Innovation State, 12345</p>
+                            <p>Surat, Gujarat</p>
                         </div>
                     </div>
-                    <div class="info-item">
+                    <!-- <div class="info-item">
                         <i class="icon-phone">📞</i>
+                        <i class="fa-solid fa-phone"></i>
                         <div>
                             <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
+                            <p>cooming soon</p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="info-item">
-                        <i class="icon-email">📧</i>
+                        <!-- <i class="icon-email">📧</i> -->
+                        <i class="fa-solid fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p>info@brocode.com</p>
+                            <p>brocodeagency7.com</p>
                         </div>
                     </div>
                     <div class="social-links">
-                        <a href="#"><i class="icon-facebook">📱</i></a>
-                        <a href="#"><i class="icon-twitter">🐦</i></a>
-                        <a href="#"><i class="icon-instagram">📷</i></a>
-                        <a href="#"><i class="icon-linkedin">💼</i></a>
+                        <!-- <a href="#"><i class="icon-facebook">📱</i></a> -->
+                        <!-- <a href="#"><i class="icon-twitter">🐦</i></a> -->
+                        <!-- <a href="#"><i class="icon-instagram">📷</i></a> -->
+                        <!-- <a href="#"><i class="icon-linkedin">💼</i></a> -->
+                        <a target="_blank" href="mailto:brocodeagency7@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <!-- <i class="fa-brands fa-square-twitter"></i> -->
+                        <a target="_blank" href="https://www.instagram.com/brocodeagency?igsh=MTlsZmZmOGgxdm95aA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/bro-code-agency-b96139357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -107,41 +141,70 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
+            <div class="footer-top">
+                <div class="footer-section brand">
                     <h3>Bro Code</h3>
                     <p>Transforming ideas into digital reality with cutting-edge solutions.</p>
                 </div>
-                <div class="footer-col">
+
+                <div class="footer-section links">
                     <h3>Quick Links</h3>
                     <ul>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-col">
-                    <h3>Services</h3>
-                    <ul>
-                        <li>Website Development</li>
-                        <li>App Development</li>
-                        <li>Digital Marketing</li>
-                        <li>UI/UX Design</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Connect</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="icon-facebook">📱</i></a>
-                        <a href="#"><i class="icon-twitter">🐦</i></a>
-                        <a href="#"><i class="icon-instagram">📷</i></a>
-                        <a href="#"><i class="icon-linkedin">💼</i></a>
+
+                <div class="footer-section serv">
+                    <h3>Our Services</h3>
+                    <div class="services-container">
+                        <ul>
+                            <li><a href="services.html">Website Development</a></li>
+                            <li><a href="services.html">App Development</a></li>
+                            <li><a href="services.html">Shopify Development</a></li>
+                            <li><a href="services.html">Graphic Design & UI/UX Design</a></li>
+                            <li><a href="services.html">WordPress Development</a></li>
+                            <li><a href="services.html">see more...</a></li>
+                        </ul>
+                        <!-- <ul>
+                            <li>Digital Marketing & Branding</li>
+                            <li>Game Development</li>
+                            <li>Social Media Management</li>
+                            <li>Video Editing & Reels Creation</li>
+                            <li>Graphic Design & UI/UX Design</li>
+                        </ul> -->
                     </div>
                 </div>
+
+                <div class="footer-section cont">
+                    <h3>Contact Us</h3>
+                    <form name="portfolio-footer" netlify>
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </form>
+                    <div class="social-links">
+                        <!-- <a href="#"><i class="icon-facebook">📱</i></a> -->
+                        <!-- <a href="#"><i class="icon-twitter">🐦</i></a> -->
+                        <!-- <a href="#"><i class="icon-instagram">📷</i></a> -->
+                        <!-- <a href="#"><i class="icon-linkedin">💼</i></a> -->
+                        <a target="_blank" href="mailto:brocodeagency7@gmail.com"><i
+                                class="fa-solid fa-envelope"></i></a>
+                        <!-- <i class="fa-brands fa-square-twitter"></i> -->
+                        <a target="_blank" href="https://www.instagram.com/brocodeagency?igsh=MTlsZmZmOGgxdm95aA=="><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/bro-code-agency-b96139357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
             </div>
+
             <div class="footer-bottom">
-                <p>&copy; <span id="current-year"></span> Bro Code. All rights reserved.</p>
+                <p>&copy; <span id="current-year"></span> BroCode Vision. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -149,4 +212,5 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/darkmode.js"></script>
 </body>
+
 </html>

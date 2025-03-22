@@ -1,0 +1,58 @@
+------------------------------------------------------------------------------------------------------------------------------------------------
+    WEBSITE PENDING WORK
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+"///" => taru
+"//"  => maru 
+
+nav ma logo 
+// changed name and style 
+// complete------------------------------------------------------
+
+Text set kar vanu hero section ma BroCode nu
+// display inline krish to width property kam nai kre
+
+About us ma light mode srkhu kam nthi krto 
+// "561 error hati" 
+//complate------------------------------------------------------
+
+portfolio.html ma section wise light dark bg change krvanu che 
+// "577 look change thay che"
+///aama container no color change thy che aapde 100vw ma joto che
+//aa nathi thatu try kari me inspect ma 
+
+contact.html ma details change krvani che 
+// "sathe discuss kar su"
+
+contact.html ma icons change krvana che /// "827 icon add" //complate--------------------------------------------------------
+
+footer ma icon add kar va che ?? 
+// "icon add then copy it in contact.html page " 
+/// ha 
+//pachi kari lesu aema complete link add thay pachi 
+
+contact.html ne mail.js sathe link krvanu che 
+// "mail.js che j nai" 
+
+fotter na mail ne pan mail.js sathe link krvanu che 
+// "mail.js che j nai"
+
+responsivness check krvani che bdha device ma 
+==> 1. "home page ma mobile screen ma problem aave che hero section ma" 
+///baki bdhu thy gayu khali #small che eni width srkhi set nthi thati ae joy leeje tu
+//ae nathi thatu badhu try kari lidhu new class banavi ne pan jooi lidhu 
+==> 2. "baki badhu brbr j lage che (crows verify)"
+//done che 
+==> 3. "footer start thay ae dark mode ma khbar nai padti aetle border top jevu kar vu padse check kari leje mobile screen ma home ma pr nathi bija page ma joje"
+///linear gradiant kri nakhu footer ane nav ne aetle alag pde 
+///light mode ma footer light nthi thatu
+// ae brbr j che light mode ma pan end mate aam pan alag color saro pade aa brbr lage che
+
+color theme change krvani che
+// "sathe" 
+
+contact page ma icon ready che aema link add kar va ni che 
+//ae ma var nai lage ae sathe time hase tyare kari lesu call ma
+
+
+final bug and error mate ek var proffesionally explore krvani chee

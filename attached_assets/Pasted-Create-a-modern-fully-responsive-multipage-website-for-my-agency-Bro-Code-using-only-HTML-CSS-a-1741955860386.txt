@@ -33,23 +33,5 @@ Create a modern, fully responsive multipage website for my agency, Bro Code, usi
 ✅ Contact Form (Name, Email, Message)
 ✅ WhatsApp Live Chat Integration
 
-📂 Folder Structure (For Organized Code in Replit)
-mathematica
-Copy
-Edit
-📁 brocode-website/
-├── 📄 index.html  (Home Page)
-├── 📄 about.html  (About Page)
-├── 📄 services.html  (Services Page)
-├── 📄 portfolio.html  (Portfolio Page)
-├── 📄 contact.html  (Contact Page)
-├── 📁 assets/
-│   ├── 📁 css/
-│   │   ├── 📄 style.css  (Main Stylesheet)
-│   │   ├── 📄 animations.css  (For Hover & Transition Effects)
-│   ├── 📁 js/
-│   │   ├── 📄 script.js  (Main JavaScript File)
-│   │   ├── 📄 darkmode.js  (For Light/Dark Mode Toggle)
-│   ├── 📁 images/  (For storing site images)
 🔹 Ensure the website is fully responsive and optimized for mobile & desktop.
 🔹 Code should be well-commented for easy modifications.

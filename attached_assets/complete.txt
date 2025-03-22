@@ -1,0 +1,34 @@
+
+nav ma logo 
+/// changed name and style 
+// complete------------------------------------------------------
+
+
+About us ma light mode srkhu kam nthi krto 
+// "561 error hati" 
+// complete------------------------------------------------------
+
+
+contact.html ma icons change krvana che 
+/// "827 icon add" 
+// complete--------------------------------------------------------
+
+
+responsivness check krvani che bdha device ma 
+==> 1. "footer start thay ae dark mode ma khbar nai padti aetle border top jevu kar vu padse check kari leje mobile screen ma home ma pr nathi bija page ma joje"
+///linear gradiant kri nakhu footer ane nav ne aetle alag pde 
+///light mode ma footer light nthi thatu
+// ae brbr j che light mode ma pan end mate aam pan alag color saro pade aa brbr lage che
+==> 2. "responsive badhu brbr j lage che (crows verify)"
+//done che 
+
+
+Text set kar vanu hero section ma BroCode nu
+// display inline krish to width property kam nai kre
+/// complete
+
+
+"home page ma mobile screen ma problem aave che hero section ma" 
+///baki bdhu thy gayu khali #small che eni width srkhi set nthi thati ae joy leeje tu
+//ae nathi thatu badhu try kari lidhu new class banavi ne pan jooi lidhu 
+/// complete
