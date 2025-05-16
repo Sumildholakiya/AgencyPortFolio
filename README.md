@@ -6,4 +6,3 @@ Our expert team combines creativity, technology, and strategy to build custom we
 Explore our portfolio to see projects crafted with passion and precision — and let’s collaborate to elevate your digital presence to the next level.
 
 Visit us at: sd-agency.netlify.app
-SD Agency — Innovate. Create. Grow.
